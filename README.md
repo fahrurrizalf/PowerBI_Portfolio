@@ -8,11 +8,11 @@ This repository houses a collection of data visualization projects created using
 
 
 ## Table of Content :
- **Project 1 :**
- 
- **Project 2 :**
- 
- **Project 3 :**
+- [**Project 1 : Car Analysis Dashboard**](#project-1--car-analysis-dashboard)
+
+- [**Project 2 :**](#project-2)
+
+- [**Project 3 :**](#project-3)
 
 ## Project 1 : Car Analysis Dashboard
 ### Introduction
@@ -22,19 +22,31 @@ In the dynamic landscape of the automotive industry, companies constantly seek i
 
     ├── LICENSE
     ├── README.md          <- README .
-    ├── query              <- Code of the DB creation and queries.
-    │   │
-    │   └── retail_sales_tables_db.sql       <- DB creation.
-    │   └── analysis.sql                     <- Final queries.
-    │   └── query_data                       <- Final queries data.
-    ├── reports            <- Folder containing the final reports/results of this project.
+    ├── query              <- Code for DB creation and queries.
     │   │
-    │   └── query_report.docx        <- Final analysis report Document.
-    │   └── query_report.pdf         <- Final query report in PDF for verifying data.
-    │   
+    │   └── Car_sales_tables_db.sql       <- DB creation.
+    │   └── analysis.sql                     <- Final queries.
+    │   └── query_data                       <- Final query data.
+    ├── reports            <- Folder containing the final project reports/results.
+    │   │
+    │   └── Car_Analysis_Report.docx        <- Final analysis report document.
+    │   └── Car_Analysis_Report.pdf         <- Final query report in PDF format for data verification.
+    │   
     ├── src                <- Source for this project.
-        │
-        ├── data           <- Datasets used and collected for this project.
+    │
+    ├── data           <- Datasets used and collected for this project.
+    │   │
+    │   └── final_cars_dataset.csv      <- Final car dataset.
+    │
+    ├── scripts        <- Additional scripts if needed.
+    │
+    ├── power_query    <- Power Query code for data cleaning.
+    │   │
+    │   └── data_cleaning    <- Power Query script for data cleaning.
+    │
+    ├── power_bi       <- Power BI project files.
+       │
+       └── Car_Analysis.pbix  <- Power BI project file.
 
 --------
 
@@ -46,11 +58,12 @@ Below is a preview of the tables:
 
 Customers Table             |           Location Table
 :--------------------------:|:------------------------:
-![](customerQ.PNG)          |         ![](locationQ.PNG)
-
+![](productQ.PNG)           |     ![](salesrepQ.PNG)
+ 
+        |      
 Products Table              |        Salesrep Table
 :---------------------------:|:----------------------
-![](productQ.PNG)             |     ![](salesrepQ.PNG)
+![](productQ.PNG)            |     ![](salesrepQ.PNG)
 
 ### Data Visualization
 
